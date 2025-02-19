@@ -1,13 +1,13 @@
 import os
 
-TOKEN = '8091680322:AAESqaETeAFqR727CKEnXmR0P4yRHAUgCdI'  # bot token
+TOKEN = ''  # bot token
 project_dir = r'/root/telegram_bot/'  # project directory
 db_path = os.path.join(project_dir, 'database.db')
 DATABASE_URL = f"sqlite+aiosqlite:///{db_path}"
 
-admin_username = "ArtemRakaiev"
-admins_id = 1396285062
-group_id = -1001888751822
+admin_username = ""
+admins_id = 
+group_id = 
 
 start_status = 0
 first_app_qst_status = 1
